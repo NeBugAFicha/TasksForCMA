@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.text.Text?>
+<AnchorPane fx:controller="Test2.controller.AddStudentController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="firstNameField" layoutX="300.0" layoutY="44.0" />
+      <TextField fx:id="lastNameField" layoutX="300.0" layoutY="84.0" />
+      <TextField fx:id="patronymicField" layoutX="300.0" layoutY="124.0" />
+      <DatePicker fx:id="birthDayField" layoutX="300.0" layoutY="166.0" />
+      <TextField fx:id="groupField" layoutX="300.0" layoutY="209.0" />
+      <TextField fx:id="uniqNumberField" layoutX="300.0" layoutY="248.0" />
+      <Label id="имя студента" layoutX="80.0" layoutY="48.0" prefHeight="17.0" prefWidth="158.0" text="Имя:" />
+      <Label id="фамилия студента" layoutX="80.0" layoutY="128.0" prefHeight="17.0" prefWidth="158.0" text="Отчество:" />
+      <Label id="отчество студента" layoutX="80.0" layoutY="170.0" prefHeight="17.0" prefWidth="158.0" text="Дата рождения:" />
+      <Label id="дата рождения студента" layoutX="80.0" layoutY="213.0" prefHeight="17.0" prefWidth="158.0" text="Группа:" />
+      <Label id="группа студента" layoutX="80.0" layoutY="252.0" prefHeight="17.0" prefWidth="158.0" text="Уникальный номер:" />
+      <Label id="уникальный студента" layoutX="80.0" layoutY="88.0" prefHeight="17.0" prefWidth="158.0" text="Фамилия:" />
+      <Button fx:id="addStudent" layoutX="80.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="389.0" text="Добавить студента" />
+      <Button fx:id="returnToMain" layoutX="80.0" layoutY="380" mnemonicParsing="false" prefHeight="25.0" prefWidth="389.0" text="Вернуться в главное окно" />
+      <Text fx:id="uniqStudentFail" layoutX="80.0" layoutY="360.0" visible="false">Студент с таким уникальным номером уже существует</Text>
+      <Text fx:id="someFail" layoutX="80.0" layoutY="360.0" visible="false">Некорректные данные</Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.text.Text?>
+<AnchorPane fx:controller="Test2.controller.MainController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Button fx:id="addStudentButton" alignment="CENTER" layoutX="140.0" layoutY="43.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Добавить нового студента" />
+      <Button fx:id="showStudentsButton" alignment="CENTER" layoutX="140.0" layoutY="83.0" mnemonicParsing="false"  prefHeight="25.0" prefWidth="300.0" text="Показать Всех студентов" />
+      <Button fx:id="deleteStudentButton" alignment="CENTER" layoutX="140.0" layoutY="122.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Удалить студента по уникальному номеру" />
+      <TextField fx:id="studentUniqNumberField" alignment="CENTER" layoutX="140.0" layoutY="164.0" prefHeight="25.0" prefWidth="300.0" promptText="Введите уникальный номер студента" />
+      <Text fx:id="successDelete" layoutX="140.0" layoutY="200.0"  visible="false">Удаление прошло успешно!</Text>
+      <Text fx:id="failDelete" layoutX="140.0" layoutY="220.0"  visible="false">Студента с таким уникальным номером не существует</Text>
+   </children>
+</AnchorPane>
