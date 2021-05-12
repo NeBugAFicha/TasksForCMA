@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.flywaydb.core.Flyway;
 
 import java.io.IOException;
 
@@ -17,6 +18,15 @@ public class Test2 extends Application {
         primaryStage.show();
     }
     public static void main(String[] args) {
+        var flyway = Flyway.configure()
+                .dataSource(
+                        "jdbc:mysql://localhost:3306/users?useUnicode=true&serverTimezone=UTC",
+                        "root",
+                        "12345678"
+                        )
+                .locations("classpath:/db/migration")
+                .load();
+        flyway.migrate();
         launch(args);
     }
 }

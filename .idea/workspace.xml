@@ -3,17 +3,96 @@
   <component name="ChangeListManager">
     <list default="true" id="abb10ece-b5a9-44ff-85de-0435fa347413" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/.idea/artifacts/JavaTravoman_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/JavaTravoman.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/artifacts/JavaTravoman_jar/JavaTravoman.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/JavaSweaper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/JavaSweaper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/JavaSweaper$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/JavaSweaper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/bombed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/flaged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/inform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/nobomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/num8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/img/zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Bomb.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Box.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Coord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Flag$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Flag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Game$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/GameState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Matrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/out/production/JavaTravoman/sweaper/Ranges.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/bomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/bombed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/flaged.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/inform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/nobomb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/num8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/opened.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/res/img/zero.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/JavaSweaper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/Bomb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/Box.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/Coord.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/Flag.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/Game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/GameState.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/Matrix.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaTravoman/src/sweaper/Ranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SnakeEdge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/SnakeEdge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/out/production/SnakeEdge/GameField$FieldKeyListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/out/production/SnakeEdge/GameField.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/out/production/SnakeEdge/MainWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/src/GameField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SnakeEdge/src/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TekkenInfo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sweater" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../xTrade/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../xTrade/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../xTrade/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
@@ -42,7 +121,44 @@
       <change afterPath="$PROJECT_DIR$/../xTrade/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../xTrade/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../xTrade/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/src/main/java/com/marketPlace/config/MvcConfig.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../xTrade/src/main/java/com/marketPlace/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/src/main/webapp/WEB-INF/views/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/example/securingweb/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/marketPlace/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.11.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jakarta.el-3.0.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.13.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-security-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-security-config-5.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-security-core-5.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-security-web-5.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.39.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/views/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestJunJavaCMA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestJunJavaCMA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xTrade/.idea/artifacts/xTrade_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/.idea/artifacts/xTrade_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xTrade/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xTrade/.idea/dataSources/cfe926c5-7eae-46f9-8031-5da4f7990413.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/.idea/dataSources/cfe926c5-7eae-46f9-8031-5da4f7990413.xml" afterDir="false" />
@@ -76,7 +192,7 @@
       <change beforePath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/marketPlace/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/marketPlace/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/marketPlace/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/marketPlace/dao/UserDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/marketPlace/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/classes/com/marketPlace/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.2.2.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.3.1.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.2.2.RELEASE.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/views/usersList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../xTrade/target/xTrade-1.0-SNAPSHOT/WEB-INF/views/usersList.ftl" afterDir="false" />
     </list>
@@ -98,7 +214,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="users" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="users" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="users" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="users: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
@@ -107,82 +239,68 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test1/Task1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test2/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="420">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test2/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
-              <caret line="48" column="86" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test2/view/addStudent.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test2/controller/AddStudentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test2/controller/DatabaseHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="61" column="77" lean-forward="true" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1287#1296#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/db/migration/V2__NewStudents.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="65" lean-forward="true" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://e180fbb8-d70b-4644-a1ae-9439617dbe61/schema/users/table/students">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/db/migration/V1__Init_Db.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e180fbb8-d70b-4644-a1ae-9439617dbe61/console.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test2/controller/DatabaseHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="61" column="77" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test2/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
                 <element signature="e#941#942#0" expanded="true" />
               </folding>
             </state>
@@ -191,28 +309,28 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test2/view/main.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test2/view/showStudents.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test2/controller/ShowStudentsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="855">
               <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -231,7 +349,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -248,7 +366,6 @@
         <option value="$PROJECT_DIR$/src/Test2/AddUserController.java" />
         <option value="$PROJECT_DIR$/src/Test2/AddStudentController.java" />
         <option value="$PROJECT_DIR$/src/Test2/DatabaseHandler.java" />
-        <option value="$PROJECT_DIR$/src/Test2/Test2.java" />
         <option value="$PROJECT_DIR$/src/Test2/view/main.fxml" />
         <option value="$PROJECT_DIR$/src/Test1/Task1.java" />
         <option value="$PROJECT_DIR$/src/Test2/controller/MainController.java" />
@@ -256,19 +373,13 @@
         <option value="$PROJECT_DIR$/src/Test2/controller/DatabaseHandler.java" />
         <option value="$PROJECT_DIR$/src/Test2/view/addStudent.fxml" />
         <option value="$PROJECT_DIR$/src/Test2/controller/AddStudentController.java" />
+        <option value="$PROJECT_DIR$/src/Test2/Test2.java" />
+        <option value="$PROJECT_DIR$/src/db/migration/V1__Init_Db.sql" />
+        <option value="$PROJECT_DIR$/src/db/migration/V2__NewStudents.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -278,6 +389,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +407,12 @@
               <item name="TestJunJavaCMA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestJunJavaCMA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestJunJavaCMA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestJunJavaCMA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Test1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -304,28 +423,12 @@
             </path>
             <path>
               <item name="TestJunJavaCMA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestJunJavaCMA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test2" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestJunJavaCMA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestJunJavaCMA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test2" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestJunJavaCMA" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,8 +437,10 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -415,26 +520,32 @@
       <workItem from="1620124722859" duration="6000" />
       <workItem from="1620124895094" duration="8143000" />
       <workItem from="1620160579807" duration="2027000" />
-      <workItem from="1620162674903" duration="17724000" />
+      <workItem from="1620162674903" duration="17970000" />
+      <workItem from="1620290059112" duration="316000" />
+      <workItem from="1620800866161" duration="420000" />
+      <workItem from="1620801831914" duration="1808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28768000" />
+    <option name="totallyTimeSpent" value="31558000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32920793" />
+      <window_info anchor="bottom" id="SQL Generator" weight="0.32920793" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3279703" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -442,14 +553,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3279703" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.13876967" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.22246066" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Maven" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -465,47 +576,16 @@
     <entry file="file://$PROJECT_DIR$/TestJunJavaCMA.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test2/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Test1/Task1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="300">
           <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test2/view/showStudents.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test2/controller/DatabaseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="61" column="77" lean-forward="true" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1287#1296#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test2/controller/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
+        <state relative-caret-position="720">
           <caret line="48" column="86" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -513,36 +593,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test2/controller/ShowStudentsController.java">
+    <entry file="file://$PROJECT_DIR$/src/Test2/view/addStudent.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+        <state relative-caret-position="375">
+          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test2/controller/AddStudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test2/view/main.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Test2/controller/DatabaseHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test2/view/addStudent.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test2/controller/AddStudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="79" column="14" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+        <state relative-caret-position="915">
+          <caret line="61" column="77" selection-start-line="61" selection-start-column="77" selection-end-line="61" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -554,9 +626,69 @@
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
             <element signature="e#941#942#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test2/view/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test2/view/showStudents.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="87" selection-start-line="18" selection-start-column="87" selection-end-line="18" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test2/controller/ShowStudentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e180fbb8-d70b-4644-a1ae-9439617dbe61/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://e180fbb8-d70b-4644-a1ae-9439617dbe61/schema/users/table/students">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test2/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migration/V1__Init_Db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/db/migration/V2__NewStudents.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="65" lean-forward="true" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
         </state>
       </provider>
     </entry>
