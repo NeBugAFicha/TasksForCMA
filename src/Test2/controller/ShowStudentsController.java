@@ -1,6 +1,8 @@
 package Test2.controller;
 
 
+import Test2.DAO.StudentDAO;
+import Test2.DAO.StudentDAOImpl;
 import Test2.Student;
 import javafx.beans.Observable;
 import javafx.collections.FXCollections;
@@ -64,9 +66,9 @@ public class ShowStudentsController {
             }
 
         });
-        DatabaseHandler db = new DatabaseHandler();
+        StudentDAO<Student, String> dbHandler = new StudentDAOImpl();
         ObservableList<Student> students = FXCollections.observableArrayList(
-                db.findAllStudents()
+                dbHandler.findAllStudents()
         );
         firstNameColumn.setCellValueFactory(new PropertyValueFactory<Student,String>("firstName"));
         lastNameColumn.setCellValueFactory(new PropertyValueFactory<Student,String>("lastName"));

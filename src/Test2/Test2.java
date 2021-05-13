@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Test2 extends Application {
     @Override
-    public void start(Stage primaryStage) throws Exception {
+    public void start(Stage primaryStage) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("view/main.fxml"));
         primaryStage.setTitle("Приложение для студентов");
         primaryStage.setScene(new Scene(root));

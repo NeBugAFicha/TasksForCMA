@@ -1,5 +1,7 @@
 package Test2.controller;
 
+import Test2.DAO.StudentDAO;
+import Test2.DAO.StudentDAOImpl;
 import Test2.Student;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -58,36 +60,38 @@ public class AddStudentController {
     @FXML
     void initialize() {
         addStudent.setOnAction(actionEvent -> {
-            try {
-                DatabaseHandler dbHandler = new DatabaseHandler();
+                StudentDAO<Student, String> dbHandler = new StudentDAOImpl();
                 if(!uniqNumberField.getText().matches("[0-9]*")
                         || !dbHandler.checkUniqness(uniqNumberField.getText())
                         || firstNameField.getText().trim().equals("")
                         || lastNameField.getText().trim().equals("")
                         || patronymicField.getText().trim().equals("")
                         || groupField.getText().trim().equals("")
-                ) throw new Exception();
-                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-                Calendar birthDay = Calendar.getInstance();
-                birthDay.set(birthDayField.getValue().getYear(),birthDayField.getValue().getMonth().getValue()-1,birthDayField.getValue().getDayOfMonth());
-                Student student = new Student(firstNameField.getText().trim(), lastNameField.getText().trim(), patronymicField.getText().trim(), simpleDateFormat.format(birthDay.getTime()), groupField.getText(), Integer.parseInt(uniqNumberField.getText().trim()));
-                dbHandler.addStudent(student);
-                addStudent.getScene().getWindow().hide();
-                Parent root = FXMLLoader.load(getClass().getResource("../view/main.fxml"));
-                Stage stage = new Stage();
-                stage.setScene(new Scene(root));
-                stage.show();
-            } catch (Exception e) {
-                DatabaseHandler dbHandler = new DatabaseHandler();
-                if(!dbHandler.checkUniqness(uniqNumberField.getText())){
-                    someFail.setVisible(false);
-                    uniqStudentFail.setVisible(true);
-                }else {
-                    someFail.setVisible(true);
-                    uniqStudentFail.setVisible(false);
+                ){
+                    if(!dbHandler.checkUniqness(uniqNumberField.getText())){
+                        someFail.setVisible(false);
+                        uniqStudentFail.setVisible(true);
+                    }else {
+                        someFail.setVisible(true);
+                        uniqStudentFail.setVisible(false);
+                    }
+                }else{
+                    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+                    Calendar birthDay = Calendar.getInstance();
+                    birthDay.set(birthDayField.getValue().getYear(),birthDayField.getValue().getMonth().getValue()-1,birthDayField.getValue().getDayOfMonth());
+                    Student student = new Student(firstNameField.getText().trim(), lastNameField.getText().trim(), patronymicField.getText().trim(), simpleDateFormat.format(birthDay.getTime()), groupField.getText(), Integer.parseInt(uniqNumberField.getText().trim()));
+                    dbHandler.addStudent(student);
+                    addStudent.getScene().getWindow().hide();
+                    try {
+                        Parent root = FXMLLoader.load(getClass().getResource("../view/main.fxml"));
+                        Stage stage = new Stage();
+                        stage.setScene(new Scene(root));
+                        stage.show();
+                    }catch(IOException e){
+                        e.printStackTrace();
+                    }
                 }
-                e.printStackTrace();
-            }
+                dbHandler.close();
         });
         returnToMain.setOnAction(actionEvent -> {
             try{

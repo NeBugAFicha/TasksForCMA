@@ -1,5 +1,7 @@
 package Test2.controller;
 
+import Test2.DAO.StudentDAO;
+import Test2.DAO.StudentDAOImpl;
 import Test2.Test2;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -64,12 +66,12 @@ public class MainController {
                                 Stage stage = new Stage();
                                 stage.setScene(new Scene(root));
                                 stage.show();
-                        }catch (Exception e){
+                        }catch (IOException e){
                                 e.printStackTrace();
                         }
                 });
                 deleteStudentButton.setOnAction(actionEvent -> {
-                        DatabaseHandler dbHandler = new DatabaseHandler();
+                        StudentDAO dbHandler = new StudentDAOImpl();
                         if(dbHandler.deleteStudentByUniqNumber(studentUniqNumberField.getText())){
                                 successDelete.setVisible(true);
                                 failDelete.setVisible(false);
@@ -78,6 +80,7 @@ public class MainController {
                                 failDelete.setVisible(true);
                                 successDelete.setVisible(false);
                         }
+                        dbHandler.close();
                 });
 
         }
